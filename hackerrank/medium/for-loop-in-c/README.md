@@ -52,7 +52,7 @@ Print the appropriate English representation,`even`, or `odd`, based on the cond
 **Language:** C  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-04T05:51:31.608Z  
+**Submitted:** 2026-10-04T05:56:58.775Z  
 
 ```c
 #include <stdio.h>
@@ -72,33 +72,30 @@ int main()
         if(i>= 1 && i <= 9)
         {
             if (i== 1)
-            printf("one\n");
+                printf("one\n");
             else if (i==2)
-             printf("two\n");
+                printf("two\n");
             else if (i==3) 
-            printf("three\n");
+                printf("three\n");
             else if (i==4) 
-            printf("four\n");
+                printf("four\n");
             else if (i==5) 
-            printf("five\n");
+                printf("five\n");
             else if (i==6) 
-            printf("six\n");
+                printf("six\n");
             else if (i==7) 
-            printf("severn\n");
+                printf("seven\n");
             else if (i==8) 
-            printf("eight\n");
+                printf("eight\n");
             else if (i==9)
-            printf("nine\n"); 
-             
-            
-            
+                printf("nine\n");  
         }
         else
         {
             if (i% 2 ==0)
-            printf("even\n");
+                printf("even\n");
             else
-            printf("odd\n");
+                printf("odd\n");
         }
     }
 
